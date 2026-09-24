@@ -1,0 +1,46 @@
+{
+    "product": "Machinova",
+    "team": "Null to Impact",
+    "total_machines": 1000,
+    "maintenance_slots": 3,
+    "slots_used": 3,
+    "expected_loss_addressed": 1248283.78,
+    "maintenance_schedule": [
+        {
+            "rank": 1,
+            "machine_id": "M0506",
+            "machine_type": "Motor",
+            "failure_risk": 86.06,
+            "failure_cost": 459909,
+            "expected_loss": 395791.89,
+            "maintenance_duration": 1,
+            "available_from": "10:00",
+            "available_to": "18:00",
+            "priority": "High"
+        },
+        {
+            "rank": 2,
+            "machine_id": "M0596",
+            "machine_type": "Loom",
+            "failure_risk": 87.51,
+            "failure_cost": 446670,
+            "expected_loss": 390876.05,
+            "maintenance_duration": 4,
+            "available_from": "11:00",
+            "available_to": "19:00",
+            "priority": "High"
+        },
+        {
+            "rank": 3,
+            "machine_id": "M0667",
+            "machine_type": "Loom",
+            "failure_risk": 93.06,
+            "failure_cost": 496015,
+            "expected_loss": 461615.84,
+            "maintenance_duration": 2,
+            "available_from": "11:00",
+            "available_to": "19:00",
+            "priority": "Medium"
+        }
+    ]
+}
